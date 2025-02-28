@@ -1,0 +1,15 @@
+#####################
+* database.php
+-> In the [__construct] method creating a [mysqli] connection object.
+
+->The [validateUser] method handles user authentication and calls the [checkUsernameAndPassword] method tp verify the credentials.
+
+->The [loggedIn] method checks if the user is logged in by checking the [$_SESSION['authorized']] variable.
+
+-> The [query] method executes the SQL query provied in the first argument. The [insertQuery], [updateQuery] and [deleteQuery] 
+   methods allows insert, update, delete operations in the database. The [countQuery] method executes an SQL query, which returns a single result.
+
+->The [checkUsernameAndPassword] method is used to check the username and password against the databse.    
+
+
+ 
