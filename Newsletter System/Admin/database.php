@@ -1,9 +1,5 @@
 <?php
 
-namespace Admin;
-
-use mysqli;
-
 class Database 
 {
 
